@@ -33,7 +33,7 @@ const Navbar = () => {
           </span>
         </a>
         <a
-          href="https://github.com/Vaibhavvp28"
+          href="https://drive.google.com/file/d/15Lf1rRMLVW2WbXPWJkVICmFYXws7Rm60/view?usp=drive_link"
           target="_blank"
           rel="noopener noreferrer"
           title="cv"
