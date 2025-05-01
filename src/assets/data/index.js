@@ -20,18 +20,21 @@ My journey in web development began with a deep curiosity for how things work, a
 export const EXPERIENCES = [
   {
     year: "2022 - Present",
-    role: "Systems Engineer",
+    companyImg:
+      "https://th.bing.com/th/id/OIP.Gb4xi3k-tu1DaNbtFzui_wHaHa?rs=1&pid=ImgDetMain",
+    role: "Senior Systems Engineer",
     company: "Infosys Ldt.",
-    description: ["Developed and maintained internal and customer-facing web application using HTML, CSS, JS AND REACT.",
-    "Administer the full life cycle of a Web Component.",
-  "Revamped the customer portal using React and Tailwind CSS, leading to a 15% increase in user engagement.",
-  "Utilized version control systems (Git) for code management and collaboration.",
-  "Collaborated with cross-functional teams to ensure seamless integration of new technologies and solutions.",
-  "Collaborated with UX/UI designers and product teams to implement user-centric designs.",
-  "Integrated RESTful APIs to fetch and display dynamic data in real-time."
-],
+    description: [
+      "Developed and maintained internal and customer-facing web application using HTML, CSS, JS AND REACT.",
+      "Administer the full life cycle of a Web Component.",
+      "Revamped the customer portal using React and Tailwind CSS, leading to a 15% increase in user engagement.",
+      "Utilized version control systems (Git) for code management and collaboration.",
+      "Collaborated with cross-functional teams to ensure seamless integration of new technologies and solutions.",
+      "Collaborated with UX/UI designers and product teams to implement user-centric designs.",
+      "Integrated RESTful APIs to fetch and display dynamic data in real-time.",
+    ],
     technologies: ["HTML", "CSS", "JavaScript", "React"],
-  }
+  },
 ];
 
 // export const PROJECTS = [
@@ -65,63 +68,53 @@ export const EXPERIENCES = [
 //   },
 // ];
 
-export const project1 =
-  {
+export const project1 = {
   title: "Store-All In One - Website",
-    image: img1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "Tailwid CSS", "React", "Redux", ],
-    link:"https://store-all-in-one.netlify.app/"
-}
-export const project2 =
-  {
+  image: img1,
+  description:
+    "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+  technologies: ["HTML", "Tailwid CSS", "React", "Redux"],
+  link: "https://store-all-in-one.netlify.app/",
+};
+export const project2 = {
   title: "MedLife - Website",
-    image: img2,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and multiple pages like About and Contact.",
-    technologies: ["HTML", "Bootstrap", "Angular", "TypeScript"],
-    link:"https://medlife-fe5b8.web.app/"
-}
-export const project3 =
-  {
+  image: img2,
+  description:
+    "A fully functional e-commerce website with features like product listing, shopping cart, and multiple pages like About and Contact.",
+  technologies: ["HTML", "Bootstrap", "Angular", "TypeScript"],
+  link: "https://medlife-fe5b8.web.app/",
+};
+export const project3 = {
   title: "TakeNotes - Android App",
-    image: img3,
-    description:
-      "A fully functional Android app with features like adding, editing and deleting notes, user authentication, notes are sync in the cloud storage.",
-    technologies: ["Android", "Java", "Firebase"],
-    link:"https://github.com/Vaibhavvp28/TakeNotes"
-}
-export const project4 =
-  {
+  image: img3,
+  description:
+    "A fully functional Android app with features like adding, editing and deleting notes, user authentication, notes are sync in the cloud storage.",
+  technologies: ["Android", "Java", "Firebase"],
+  link: "https://github.com/Vaibhavvp28/TakeNotes",
+};
+export const project4 = {
   title: "TinDog - Website",
-    image: img4,
-    description:
-      "A modern day website designed as a fun and interactive platform for matching dogs, similar to Tinder for humans.",
-    technologies: ["HTML", "CSS", "Bootstrap"],
-    link:"https://tin-dog-1.netlify.app/"
-}
-export const project5 =
-  {
+  image: img4,
+  description:
+    "A modern day website designed as a fun and interactive platform for matching dogs, similar to Tinder for humans.",
+  technologies: ["HTML", "CSS", "Bootstrap"],
+  link: "https://tin-dog-1.netlify.app/",
+};
+export const project5 = {
   title: "Paytm - Website",
-    image: img5,
-    description:
-      "A website designed to mimic the look and feel of the Paytm Website, providing a similar user interface and layout.",
-    technologies: ["HTML", "Tailwind CSS", "React"],
-    link:"https://tailwind-project-clone1.netlify.app/"
-}
-export const project6 =
-  {
+  image: img5,
+  description:
+    "A website designed to mimic the look and feel of the Paytm Website, providing a similar user interface and layout.",
+  technologies: ["HTML", "Tailwind CSS", "React"],
+  link: "https://tailwind-project-clone1.netlify.app/",
+};
+export const project6 = {
   title: "SimonGame - Website",
-    image: img6,
-    description:
-      "A simple and fun Simon game for testing memory skils.",
-    technologies: ["HTML", "CSS", "JavasScript"],
-    link:"https://simon-game-app01.netlify.app/"
-}
-
-
-
+  image: img6,
+  description: "A simple and fun Simon game for testing memory skils.",
+  technologies: ["HTML", "CSS", "JavasScript"],
+  link: "https://simon-game-app01.netlify.app/",
+};
 
 export const CONTACT = {
   address: "Mumbai, Maharashtra ",

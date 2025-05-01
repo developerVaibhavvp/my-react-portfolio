@@ -24,7 +24,15 @@ const Experience = () => {
                 className="w-full lg:w-1/4"
               >
                 <p className="mb-2 text-sm text-neutral-400">{item.year}</p>
+
+                <img
+                  src={item.companyImg}
+                  alt={item.company}
+                  className="h-[100px] w-[100px] object-fit rounded-full border-2 border-neutral-800"
+                  loading="lazy"
+                />
               </motion.div>
+
               <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: 100 }}

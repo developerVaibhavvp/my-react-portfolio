@@ -7,6 +7,7 @@ import { RiReactjsLine } from "react-icons/ri";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaGitAlt } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { SiExpress } from "react-icons/si";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -79,7 +80,15 @@ const Technology = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer"
         >
-          <FaNodeJs className="text-7xl text-green-600" title="Node" />
+          <FaNodeJs className="text-7xl text-green-600" title="Node.js" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(2.5)}
+          initial="initail"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer"
+        >
+          <SiExpress className="text-7xl text-green-600" title="Express.js" />
         </motion.div>
         <motion.div
           variants={iconVariants(4)}
