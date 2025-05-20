@@ -2,7 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { project1 } from "../assets/data/index";
 import { project2 } from "../assets/data/index";
-import { project3 } from "../assets/data/index";
 import { project4 } from "../assets/data/index";
 import { project5 } from "../assets/data/index";
 import { project6 } from "../assets/data/index";
@@ -102,7 +101,7 @@ const Projects = () => {
         </div>
       </div>
       {/* project3 */}
-      <div>
+      {/* <div>
         <div className="mb-5 flex flex-wrap lg:justify-center">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
@@ -141,7 +140,7 @@ const Projects = () => {
             })}
           </motion.div>
         </div>
-      </div>
+      </div> */}
       {/* project4 */}
       <div>
         <div className="mb-5 flex flex-wrap lg:justify-center">

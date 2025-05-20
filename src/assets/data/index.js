@@ -25,7 +25,7 @@ export const EXPERIENCES = [
     role: "Senior Systems Engineer",
     company: "Infosys Ldt.",
     description: [
-      "Developed and maintained internal and customer-facing web application using HTML, CSS, JS AND REACT.",
+      "Developed and maintained internal and customer-facing web application using HTML, CSS, JS and REACT.",
       "Administer the full life cycle of a Web Component.",
       "Revamped the customer portal using React and Tailwind CSS, leading to a 15% increase in user engagement.",
       "Utilized version control systems (Git) for code management and collaboration.",
@@ -84,14 +84,14 @@ export const project2 = {
   technologies: ["HTML", "Bootstrap", "Angular", "TypeScript"],
   link: "https://medlife-fe5b8.web.app/",
 };
-export const project3 = {
-  title: "TakeNotes - Android App",
-  image: img3,
-  description:
-    "A fully functional Android app with features like adding, editing and deleting notes, user authentication, notes are sync in the cloud storage.",
-  technologies: ["Android", "Java", "Firebase"],
-  link: "https://github.com/Vaibhavvp28/TakeNotes",
-};
+// export const project3 = {
+//   title: "TakeNotes - Android App",
+//   image: img3,
+//   description:
+//     "A fully functional Android app with features like adding, editing and deleting notes, user authentication, notes are sync in the cloud storage.",
+//   technologies: ["Android", "Java", "Firebase"],
+//   link: "https://github.com/Vaibhavvp28/TakeNotes",
+// };
 export const project4 = {
   title: "TinDog - Website",
   image: img4,
