@@ -1,6 +1,6 @@
 import img1 from "../images/projects/project-1.jpg";
+import img21 from "../images/projects/img21.jpg";
 import img2 from "../images/projects/project-2.jpg";
-import img3 from "../images/projects/project-3.jpg";
 import img4 from "../images/projects/project-4.jpg";
 import img5 from "../images/projects/project-5.jpg";
 import img6 from "../images/projects/project-6.jpg";
@@ -37,71 +37,43 @@ export const EXPERIENCES = [
   },
 ];
 
-// export const PROJECTS = [
-//   {
-//     title: "E-Commerce Website",
-//     image: project1,
-//     description:
-//       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-//     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-//   },
-//   {
-//     title: "Task Management App",
-//     image: project2,
-//     description:
-//       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-//     technologies: ["HTML", "CSS", "Angular", "Firebase"],
-//   },
-//   {
-//     title: "Portfolio Website",
-//     image: project3,
-//     description:
-//       "A personal portfolio website showcasing projects, skills, and contact information.",
-//     technologies: ["HTML", "CSS", "React", "Bootstrap"],
-//   },
-//   {
-//     title: "Blogging Platform",
-//     image: project4,
-//     description:
-//       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-//     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-//   },
-// ];
-
 export const project1 = {
-  title: "Store-All In One - Website",
+  title: "Store-All In One",
   image: img1,
   description:
     "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
   technologies: ["HTML", "Tailwid CSS", "React", "Redux"],
   link: "https://store-all-in-one.netlify.app/",
 };
+
 export const project2 = {
-  title: "MedLife - Website",
+  title: "Password Generator",
+  image: img21,
+  description:
+    "A powerful and secure React-based password generator that creates strong, customizable passwords in seconds..",
+  technologies: ["React", "Tailwid CSS", "React Hooks"],
+  link: "https://strong-password-generator01.netlify.app/",
+};
+
+export const project3 = {
+  title: "MedLife",
   image: img2,
   description:
     "A fully functional e-commerce website with features like product listing, shopping cart, and multiple pages like About and Contact.",
   technologies: ["HTML", "Bootstrap", "Angular", "TypeScript"],
   link: "https://medlife-fe5b8.web.app/",
 };
-// export const project3 = {
-//   title: "TakeNotes - Android App",
-//   image: img3,
-//   description:
-//     "A fully functional Android app with features like adding, editing and deleting notes, user authentication, notes are sync in the cloud storage.",
-//   technologies: ["Android", "Java", "Firebase"],
-//   link: "https://github.com/Vaibhavvp28/TakeNotes",
-// };
+
 export const project4 = {
-  title: "TinDog - Website",
+  title: "TinDog",
   image: img4,
   description:
     "A modern day website designed as a fun and interactive platform for matching dogs, similar to Tinder for humans.",
-  technologies: ["HTML", "CSS", "Bootstrap"],
+  technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
   link: "https://tin-dog-1.netlify.app/",
 };
 export const project5 = {
-  title: "Paytm - Website",
+  title: "Paytm",
   image: img5,
   description:
     "A website designed to mimic the look and feel of the Paytm Website, providing a similar user interface and layout.",
@@ -109,7 +81,7 @@ export const project5 = {
   link: "https://tailwind-project-clone1.netlify.app/",
 };
 export const project6 = {
-  title: "SimonGame - Website",
+  title: "SimonGame",
   image: img6,
   description: "A simple and fun Simon game for testing memory skils.",
   technologies: ["HTML", "CSS", "JavasScript"],

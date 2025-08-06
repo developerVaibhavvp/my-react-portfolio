@@ -39,7 +39,14 @@ const Contact = () => {
           I'd love to hear from you! Whether you have a question or just want to
           say hi👋, feel free to drop an email.
         </motion.p>
-        <span className="border-b cursor-pointer">{CONTACT.email}</span>
+        <a
+          href={`https://mail.google.com/mail/?view=cm&fs=1&to=${CONTACT.email}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="border-b cursor-pointer"
+        >
+          {CONTACT.email}
+        </a>
       </div>
     </div>
   );

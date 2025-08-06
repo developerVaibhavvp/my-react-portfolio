@@ -8,6 +8,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { FaGitAlt } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { SiExpress } from "react-icons/si";
+import { RiNextjsFill } from "react-icons/ri";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -73,6 +74,14 @@ const Technology = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer"
         >
           <RiReactjsLine className="text-7xl text-cyan-400" title="React" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(4)}
+          initial="initail"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer"
+        >
+          <RiNextjsFill className="text-7xl text-black" title="NextJs" />
         </motion.div>
         <motion.div
           variants={iconVariants(6)}
