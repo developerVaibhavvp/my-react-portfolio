@@ -5,12 +5,12 @@ import img4 from "../images/projects/project-4.jpg";
 import img5 from "../images/projects/project-5.jpg";
 import img6 from "../images/projects/project-6.jpg";
 
-export const HERO_CONTENT = `I am a passionate frontend developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React, 
+export const HERO_CONTENT = `I am a passionate frontend developer with a knack for crafting robust and scalable web applications. With more than 2 years of hands-on experience, I have honed my skills in front-end technologies like React, 
 as well as technologies like JavaScript, Tailwind CSS, Node.js and Git. 
 My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile frontend developer with a passion 
-for creating efficient and user-friendly web applications. With 2 years of professional experience, 
+for creating efficient and user-friendly web applications. With more than 2 years of professional experience, 
 I have worked with a variety of technologies, including HTML, CSS, React, Tailwind CSS, Node.js and Git. 
 My journey in web development began with a deep curiosity for how things work, and it has evolved into a career
  where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and 

@@ -3,12 +3,24 @@ import logo from "../assets/images/name.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { HiOutlineDocumentText } from "react-icons/hi";
+import { ReactTyped } from "react-typed";
 
 const Navbar = () => {
   return (
     <nav className="mb-20 flex items-center justify-between py-6 lg:sticky">
       <div className="flex flex-shrink-0 items-center">
-        <img className="mx-2 w-10" src={logo} alt="Logo" />
+        <ReactTyped
+          strings={[
+            "I am a Software\nEngineer",
+            "I am a Web\nDeveloper",
+            "I am a Programmer",
+            "I am Vaibhav",
+          ]}
+          typeSpeed={60}
+          backSpeed={40}
+          loop
+          className="mx-2 text-xl font-bold text-blue-400 whitespace-pre-line"
+        />
       </div>
 
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
