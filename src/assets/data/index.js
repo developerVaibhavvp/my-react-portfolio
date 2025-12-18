@@ -4,6 +4,7 @@ import img2 from "../images/projects/project-2.jpg";
 import img4 from "../images/projects/project-4.jpg";
 import img5 from "../images/projects/project-5.jpg";
 import img6 from "../images/projects/project-6.jpg";
+import img7 from "../images/projects/project-7.jpeg";
 
 export const HERO_CONTENT = `I am a passionate frontend developer with a knack for crafting robust and scalable web applications. With more than 2 years of hands-on experience, I have honed my skills in front-end technologies like React, 
 as well as technologies like JavaScript, Tailwind CSS, Node.js and Git. 
@@ -44,6 +45,14 @@ export const project1 = {
     "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
   technologies: ["HTML", "Tailwid CSS", "React", "Redux"],
   link: "https://store-all-in-one.netlify.app/",
+};
+export const project7 = {
+  title: "World of Books",
+  image: img7,
+  description:
+    "A clean and responsive book discovery web application that helps users quickly find books along with their ratings, descriptions, and key details.",
+  technologies: ["React", "Tailwid CSS", "JavaScript", "API"],
+  link: "https://world-off-books.netlify.app/",
 };
 
 export const project2 = {

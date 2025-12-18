@@ -4,9 +4,8 @@ import {
   project1,
   project2,
   project3,
-  project4,
-  project5,
   project6,
+  project7,
 } from "../assets/data/index";
 
 const Projects = () => {
@@ -62,7 +61,48 @@ const Projects = () => {
           </motion.div>
         </div>
       </div>
-      {/* project2 */}
+      {/* project7 */}
+      <div>
+        <div className="mb-5 flex flex-wrap lg:justify-center">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            transition={{ duration: 1 }}
+            className="w-full lg:w-1/4"
+          >
+            <img
+              src={project7.image}
+              alt=""
+              width={150}
+              height={150}
+              className="mb-6 rounded"
+            />
+          </motion.div>
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            transition={{ duration: 1 }}
+            className="w-full max-w-xl lg:w-3/4"
+          >
+            <a href={project7.link} target="_blank">
+              <h6 className="mb-2 font-semibold">{project7.title}</h6>{" "}
+            </a>
+            <p className="mb-4 text-neutral-400">{project7.description}</p>
+            {project7.technologies.map((tech, index) => {
+              return (
+                <span
+                  key={index}
+                  className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium
+                        text-purple-900"
+                >
+                  {tech}
+                </span>
+              );
+            })}
+          </motion.div>
+        </div>
+      </div>
+      {/* project3 */}
       <div>
         <div className="mb-5 flex flex-wrap lg:justify-center">
           <motion.div
@@ -103,7 +143,7 @@ const Projects = () => {
           </motion.div>
         </div>
       </div>
-      {/* project3 */}
+      {/* project4 */}
       <div>
         <div className="mb-5 flex flex-wrap lg:justify-center">
           <motion.div
@@ -131,47 +171,6 @@ const Projects = () => {
             </a>
             <p className="mb-4 text-neutral-400">{project3.description}</p>
             {project3.technologies.map((tech, index) => {
-              return (
-                <span
-                  key={index}
-                  className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium
-                        text-purple-900"
-                >
-                  {tech}
-                </span>
-              );
-            })}
-          </motion.div>
-        </div>
-      </div>
-      {/* project4 */}
-      <div>
-        <div className="mb-5 flex flex-wrap lg:justify-center">
-          <motion.div
-            whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: -100 }}
-            transition={{ duration: 1 }}
-            className="w-full lg:w-1/4"
-          >
-            <img
-              src={project4.image}
-              alt=""
-              width={150}
-              height={150}
-              className="mb-6 rounded"
-            />
-          </motion.div>
-          <motion.div
-            whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: 100 }}
-            transition={{ duration: 1 }}
-            className="w-full max-w-xl lg:w-3/4"
-          >
-            <a href={project4.link} target="_blank">
-              <h6 className="mb-2 font-semibold">{project4.title}</h6>{" "}
-            </a>
-            <p className="mb-4 text-neutral-400">{project4.description}</p>
-            {project4.technologies.map((tech, index) => {
               return (
                 <span
                   key={index}
